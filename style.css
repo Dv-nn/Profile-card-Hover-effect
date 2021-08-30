@@ -1,0 +1,87 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.container {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+/* ---------card--------------- */
+.card {
+   position: relative;
+   overflow: hidden;
+   border-radius: 15px;
+   width: 300px;
+   height: 450px;
+   box-shadow: 0 20px 70px rgb(68, 67, 67);
+   cursor: pointer;
+   transition: background .8s;
+}
+.card1 {
+ background: url(./img/card1.jpg) center center no-repeat;
+ background-size: 300px;
+}
+.card1:hover {
+   background: url(./img/card1.jpg) left center no-repeat;
+   background-size: 600px;
+}
+
+.card2 {
+   background: url(./img/card2.jpg) center center no-repeat;
+   background-size: 300px;
+  }
+  .card2:hover {
+   background: url(./img/card2.jpg) left center no-repeat;
+   background-size: 600px;
+}
+
+  .card3 {
+   background: url(./img/card3.jpg) center center no-repeat;
+   background-size: 300px;
+  }
+  .card3:hover {
+   background: url(./img/card3.jpg) left center no-repeat;
+   background-size: 600px;
+}
+
+
+
+/* ---------border--------------- */
+.border {
+   position: relative;
+   width: 280px;
+   height: 430px;
+   border: 2px solid #fff;
+   background: transparent;
+   margin: 8px auto;
+   border-radius: 15px;
+   opacity: 0;
+   transition: opacity 1s;
+}
+.border:hover {
+   opacity: 1;
+}
+
+/* ---------h2------------------- */
+h2 {
+   font-family: 'Kalam', cursive;
+   color: #fff;
+   padding-left: 20px;
+}
+
+/* ---------icons--------------- */
+.icons {
+   position: absolute;
+   top: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   color: #fff;
+   font-size: 22px;
+   height: 150px;
+   margin-left: 20px;
+}
+
+
